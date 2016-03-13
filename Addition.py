@@ -101,7 +101,7 @@ def adddata():
         else:
             #Commit to database
             #progressbar.start()
-            f = open("test.txt", "a")
+            f = open("itemsraw.txt", "a")
             text = ("\n",itemN,", ",itemT,", ",itemP,", ",itemW)
             for t in text:
                 f.write(''.join(str(s) for s in t))
